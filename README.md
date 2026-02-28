@@ -1,0 +1,1 @@
+# bitcoin-mining-net-impact-score
