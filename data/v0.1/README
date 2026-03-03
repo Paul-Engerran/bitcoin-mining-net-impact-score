@@ -1,7 +1,7 @@
 # Dataset v0.1 (draft) — Site×Grid baseline (2024)
 
-**Status:** draft / work in progress (not peer-reviewed)  
-**Generated on:** YYYY-MM-DD
+![Status](https://img.shields.io/badge/status-working%20draft-yellow)
+![Last update](https://img.shields.io/badge/last%20update-2026--03--03-informational)
 
 This folder contains a first stable snapshot used to build a site-level ("site×grid") baseline of annual electricity use and location-based Scope 2 emissions.
 
