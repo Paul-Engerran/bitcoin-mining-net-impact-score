@@ -1,54 +1,45 @@
-# Bitcoin Energy Accountability — Net Impact Score (NIS)
+# Bitcoin Energy Accountability — Site×Grid Baseline & Net Impact Scoring (NIS)
 
-![Status](https://img.shields.io/badge/status-working%20draft-yellow)
-![Last update](https://img.shields.io/badge/last%20update-2026--03--03-informational)
+**Status:** Draft / Work in progress (not peer-reviewed)  
+**Last updated:** YYYY-MM-DD
 
-**Working paper (in progress).**  
-This repository develops a *baseline* and a **Net Impact Score (NIS)** to compare Bitcoin mining actors beyond gross electricity use (MWh), by incorporating observable grid-facing practices (e.g., demand response, curtailment absorption, ancillary services).
+This repository contains data and code for a site-level ("site×grid") baseline assessment of Bitcoin mining electricity use and location-based Scope 2 emissions, plus an auditable extension: a conservative **Net Impact Score (NIS)** framework.
 
-## What this is (and is not)
+## What this is (and what it is not)
+### Baseline (auditable)
+- Unit of analysis: **mining site paired with its electricity accounting zone**
+- Emissions boundary: **location-based Scope 2** (annual average intensity by official zone)
+- Outputs: site-level and operator-level annual MWh and tCO₂ (plus zone summaries)
 
-**Goal.** Provide a *comparable* and *auditable* quantification framework to discuss **net system impact** rather than raw consumption.
+### NIS (conservative extension)
+NIS assigns credits **only** when backed by publicly auditable evidence (e.g., time-stamped curtailed MWh tied to program settlements; hourly time-matched clean procurement in the same zone).  
+If evidence is missing, **credits default to zero**.
 
-**Non-goals.**  
-- Not claiming a definitive “true” footprint of the entire Bitcoin network.
-- Not assuming perfect observability of energy provenance or marginal emissions.
-
-## Core contribution
-
-- A **baseline**: consistent accounting rules and public-data sourcing strategy (public miners + grid/operator sources when available).
-- A **Net Impact Score (NIS)**: adjustments to gross MWh using explicit criteria tied to grid interaction and energy context.
-- A transparency stance: document assumptions, uncertainty ranges, and data limitations.
+> NIS does not replace the baseline. It is a layered framework designed to evolve with disclosures.
 
 ## Repository structure
+- `data/`
+  - `CBECI_ingest_sites_2024.csv` — cleaned ingest-ready site table
+  - `ESG_sites_2024_master_*.csv` — master / working tables (may include WIP columns)
+  - `ESG_operators_2024_summary*.csv` — operator rollups
+  - `ESG_zones_2024_summary.csv` — zone rollups
+  - `ESG_CBECI_data_dictionary.csv` — field definitions
+- `docs/` — methodology notes, assumptions, changelog (recommended)
+- `paper/` — draft manuscript PDF (optional)
+- `notebooks/` — exploratory notebooks (clearly labeled if WIP)
 
-- `paper/` — manuscript sources (draft)
-- `data/` — extracted public data / references to sources
-- `method/` — methodology notes and scoring logic
-- `BIBLIOGRAPHY.md` — living bibliography (human-readable)
-- `references.bib` — BibTeX references (machine-readable)
-- `CITATION.cff` — how to cite this repo
-
-## Roadmap (living)
-
-- [ ] v0.1 — Scope definition & system boundaries
-- [ ] v0.2 — Baseline rules + data dictionary
-- [ ] v0.3 — NIS scoring rubric (criteria + weights) + sensitivity checks
-- [ ] v0.4 — Case studies (e.g., ERCOT-style flexible load)
-- [ ] v0.5 — Robustness, limitations, and comparability discussion
-- [ ] v1.0 — Preprint release (SSRN / HAL / arXiv) + archived dataset
+## Reproduce
+1. Install dependencies (Python ≥3.10): `pandas`, `numpy`, `matplotlib`
+2. Run: `python scripts/build_operator_tables.py` (or open the replication notebook if provided)
+3. Outputs are regenerated from the site-level CSV.
 
 ## How to cite
+If you use this repository, please cite:
+- the dataset release (when available), or
+- this GitHub repository (commit hash + access date).
 
-Until a preprint is released, please cite the repository:
+A `CITATION.cff` will be added once the first stable release is tagged.
 
-See `CITATION.cff`.
-
-## Bibliography
-
-See **BIBLIOGRAPHY.md** (categorized) and `references.bib`.
-
-## License
-
-Code: MIT (or your choice)  
-Text/manuscript: CC BY 4.0 (or your choice)
+## Contact
+- Author: Paul Engerran
+- Issues & suggestions: please open a GitHub issue with sources/links.
