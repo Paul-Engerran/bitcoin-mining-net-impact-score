@@ -1,0 +1,17 @@
+# Dataset v0.1 (draft) — Site×Grid baseline (2024)
+
+**Status:** draft / work in progress (not peer-reviewed)  
+**Generated on:** YYYY-MM-DD
+
+This folder contains a first stable snapshot used to build a site-level ("site×grid") baseline of annual electricity use and location-based Scope 2 emissions.
+
+## Files
+- `ESG_CBECI_data_dictionary.csv` — field definitions and units
+- `CBECI_ingest_sites_2024.csv` — site-level table (ingest-ready), incl. zone mapping and Source_URL where available
+- `ESG_operators_2024_summary.csv` — operator-level aggregation
+- `ESG_zones_2024_summary.csv` — zone-level aggregation
+
+## Notes / limitations
+- Values and mappings may change as sources are updated or corrected.
+- NIS credits are not included in this snapshot (baseline only).
+- Use this snapshot with commit hash + access date for reproducibility.
