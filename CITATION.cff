@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite it using the metadata below (commit hash + access date recommended for drafts)."
+title: "Bitcoin Energy Accountability — Site×Grid Baseline & Net Impact Scoring (NIS)"
+type: software
+authors:
+  - family-names: Engerran
+    given-names: Paul
+repository-code: "https://github.com/Paul-Engerran/bitcoin-mining-net-impact-score"
+license: "MIT"
+keywords:
+  - bitcoin
+  - mining
+  - electricity
+  - scope 2
+  - emissions
+  - grid
+  - demand response
+  - methodology
+abstract: >
+  Early-stage research repository containing data and code for a site-level (“site×grid”)
+  baseline assessment of Bitcoin mining electricity use and location-based Scope 2 emissions,
+  plus a conservative proposal for a Net Impact Score (NIS) based on auditable evidence.
