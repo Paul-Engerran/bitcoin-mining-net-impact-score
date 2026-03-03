@@ -1,0 +1,15 @@
+field,description_fr
+Company,Nom de l'opérateur minier (raison sociale telle qu’en bourse/rapports)
+Site,"Nom court du site (ville, état/province, pays)"
+Country,Pays inféré depuis Site/Zone (USA/Canada/Norway/Iceland/Sweden/Argentina/Paraguay)
+Zone,Zone réseau (eGRID subregion pour USA; utility/province pour Canada; opérateur système pour autres)
+Report_Year,Année de référence des données (ici 2024)
+Capacity_MW,Capacité électrique (MW) – publiée ou déduite du site/rapport
+LoadFactor_assumed_percent,"Facteur de charge supposé (%) – 92% par défaut, 70% si DR/curtailment fréquent, 0% si non-opérationnel"
+Est_Annual_MWh,Énergie annuelle estimée (MWh) = MW × 8 760 × LF
+Grid_CO2_g_per_kWh,Intensité carbone du réseau (gCO2/kWh) – eGRID/ECCC/refs régionales
+Est_CO2_t,Émissions annuelles estimées (tonnes CO2) = (MWh × g/kWh) / 1000
+CO2_Method,Méthode d’intensité (eGRID_2022_total_output_rate / Regional_proxy_official/peer_refs)
+Provisional_Intensity,TRUE si la valeur d’intensité est provisoire (à verrouiller)
+Source_URL,Lien source principal (ESG/IR/filing) du site/valeur
+Intensity_Source_URL,"Lien exact vers la source d’intensité (table eGRID, ECCC Table 5.1, etc.)"
