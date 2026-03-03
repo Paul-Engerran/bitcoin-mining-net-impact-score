@@ -3,6 +3,8 @@
 ![Status](https://img.shields.io/badge/status-working%20draft-yellow)
 ![Last update](https://img.shields.io/badge/last%20update-2026--03--03-informational)
 
+**Note:** This is an early-stage research project maintained alongside academic work and side projects; the goal is transparent documentation and reproducibility, not a peer-reviewed claim at this stage.
+
 This repository contains data and code for a site-level ("site×grid") baseline assessment of Bitcoin mining electricity use and location-based Scope 2 emissions, plus an auditable extension: a conservative **Net Impact Score (NIS)** framework.
 
 ## What this is (and what it is not)
@@ -18,14 +20,12 @@ If evidence is missing, **credits default to zero**.
 > NIS does not replace the baseline. It is a layered framework designed to evolve with disclosures.
 
 ## Repository structure
-- `data/`
-  - `CBECI_ingest_sites_2024.csv` — cleaned ingest-ready site table
-  - `ESG_sites_2024_master_*.csv` — master / working tables (may include WIP columns)
-  - `ESG_operators_2024_summary*.csv` — operator rollups
-  - `ESG_zones_2024_summary.csv` — zone rollups
-  - `ESG_CBECI_data_dictionary.csv` — field definitions
+- `data/processed/`
+  - `v0.1/` — baseline snapshot (site table + operator/zone rollups + data dictionary)
+- `data/wip/`
+  - intermediate tables (may contain temporary columns / fixes)
 - `docs/` — methodology notes, assumptions, changelog (recommended)
-- `paper/` — draft manuscript PDF (optional)
+- `paper/` — draft manuscript (optional; clearly labeled not peer-reviewed)
 - `notebooks/` — exploratory notebooks (clearly labeled if WIP)
 
 ## Reproduce
@@ -34,11 +34,8 @@ If evidence is missing, **credits default to zero**.
 3. Outputs are regenerated from the site-level CSV.
 
 ## How to cite
-If you use this repository, please cite:
-- the dataset release (when available), or
-- this GitHub repository (commit hash + access date).
-
-A `CITATION.cff` will be added once the first stable release is tagged.
+Please cite this repository using the **commit hash** and **access date**.
+A `CITATION.cff` will be provided when the first snapshot release is tagged.
 
 ## Contact
 - Author: Paul Engerran
