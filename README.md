@@ -1,7 +1,7 @@
 # Bitcoin Energy Accountability — Site×Grid Baseline & Net Impact Scoring (NIS)
 
-**Status:** Draft / Work in progress (not peer-reviewed)  
-**Last updated:** YYYY-MM-DD
+![Status](https://img.shields.io/badge/status-working%20draft-yellow)
+![Last update](https://img.shields.io/badge/last%20update-2026--03--03-informational)
 
 This repository contains data and code for a site-level ("site×grid") baseline assessment of Bitcoin mining electricity use and location-based Scope 2 emissions, plus an auditable extension: a conservative **Net Impact Score (NIS)** framework.
 
