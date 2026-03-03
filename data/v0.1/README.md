@@ -7,7 +7,7 @@ This folder contains a first stable snapshot used to build a site-level ("site×
 
 ## Files
 - `ESG_CBECI_data_dictionary.csv` — field definitions and units
-- `CBECI_ingest_sites_2024.csv` — site-level table (ingest-ready), incl. zone mapping and Source_URL where available
+- `NIS_ingest_sites_2024.csv` — site-level table (ingest-ready), incl. zone mapping and Source_URL where available
 - `ESG_operators_2024_summary.csv` — operator-level aggregation
 - `ESG_zones_2024_summary.csv` — zone-level aggregation
 
