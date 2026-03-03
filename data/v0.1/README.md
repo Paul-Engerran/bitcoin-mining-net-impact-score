@@ -18,7 +18,7 @@ In particular:
 The project’s stance is: **document everything from the earliest steps**, even when imperfect, rather than publish a polished result without traceability. This repository is maintained alongside academic work and personal projects; the goal is to converge toward a publication-grade framework over time, not to claim peer-reviewed certainty at v0.1.
 
 ## Files
-- `ESG_CBECI_data_dictionary.csv` — field definitions and units
+- `ESG_NIS_data_dictionary.csv` — field definitions and units
 - `NIS_ingest_sites_2024.csv` — site-level table (ingest-ready), incl. zone mapping and `Source_URL` where available
 - `ESG_operators_2024_summary.csv` — operator-level aggregation (from the site table)
 - `ESG_zones_2024_summary.csv` — zone-level aggregation (from the site table)
