@@ -3,8 +3,6 @@
 ![Status](https://img.shields.io/badge/status-early%20draft-yellow)
 ![Snapshot](https://img.shields.io/badge/snapshot-2026--03--03-informational)
 
-# Dataset v0.1 (draft) — Site×Grid baseline (2024)
-
 **Status:** very early draft / work in progress (not peer-reviewed)  
 **Generated on:** 2026-03-03  
 **Purpose:** portfolio + transparent research log (documenting early steps)
