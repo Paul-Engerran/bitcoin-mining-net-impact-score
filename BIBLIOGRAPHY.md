@@ -26,7 +26,7 @@
 
 - Köhler, S., & Pizzol, M. (2019). Life cycle assessment of Bitcoin mining. *Environmental Science & Technology, 53*(23), 13598–13606. https://doi.org/10.1021/acs.est.9b05687
 - Krause, M. J., & Tolaymat, T. (2018). Quantification of energy and carbon costs for mining cryptocurrencies. *Nature Sustainability, 1*(11), 711–718. https://doi.org/10.1038/s41893-018-0152-7
-- Roeck, M., & Drennen, T. E. (2022). Life cycle assessment of cryptocurrency technologies: Energy and environmental impacts. *International Journal of Life Cycle Assessment, 27*(8), 1375–1391. https://doi.org/10.1007/s11367-022-02025-0
+- Roeck, M., Drennen, T. Life cycle assessment of behind-the-meter Bitcoin mining at US power plant. Int J Life Cycle Assess 27, 355–365 (2022). https://doi.org/10.1007/s11367-022-02025-0
 - De Vries, A., Gallersdörfer, U., Klaaßen, L., & Stoll, C. (2022). Revisiting Bitcoin’s carbon footprint. *Joule, 6*(3), 498–502. https://doi.org/10.1016/j.joule.2022.02.005
 - Ibañez, J. I., & Freier, A. (2023). Bitcoin’s carbon footprint revisited: Proof-of-work mining for renewable-energy expansion. *Challenges, 14*(3), 35. https://doi.org/10.3390/challe14030035
 
