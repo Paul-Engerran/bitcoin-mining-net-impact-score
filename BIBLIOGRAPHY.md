@@ -45,7 +45,7 @@
 
 - Carter, N., Connell, S., Jones, B., Porter, D., & Rudd, M. A. (2023). Leveraging Bitcoin miners as flexible load resources for power system stability and efficiency. *SSRN.* [preprint] https://doi.org/10.2139/ssrn.4634256
 - El Helou, R., Menati, A., & Xie, L. (2023). Physical and economic viability of cryptocurrency mining for provision of frequency regulation: A real-world Texas case study. *arXiv preprint* arXiv:2303.09081. [preprint] https://arxiv.org/abs/2303.09081
-- Energy Information Administration (EIA). (2024). *As Texas wind and solar capacity increase, energy curtailments are also likely to rise.* [policy] https://www.eia.gov/todayinenergy/detail.php?id=57100
+- Energy Information Administration (EIA). (2023). *As Texas wind and solar capacity increase, energy curtailments are also likely to rise.* [policy] https://www.eia.gov/todayinenergy/detail.php?id=57100
 - ERCOT. (2022). *ERCOT creates voluntary curtailment program for large flexible customers during peak demand.* [policy] https://www.ercot.com/news/release/2022-12-06-ercot-creates-voluntary
 - Bruno, A., Weber, P., & Yates, A. J. (2023). Can Bitcoin mining increase renewable electricity capacity? *Resource and Energy Economics, 74,* 101376. https://doi.org/10.1016/j.reseneeco.2023.101376
 - Lal, A., Zhu, J., & You, F. (2023). From mining to mitigation: How Bitcoin can support renewable energy development and climate action. *ACS Sustainable Chemistry & Engineering, 11*(45), 16330–16340. https://doi.org/10.1021/acssuschemeng.3c05445
