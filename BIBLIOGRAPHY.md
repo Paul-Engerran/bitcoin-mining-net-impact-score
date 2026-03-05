@@ -1,4 +1,4 @@
-# Bibliography (living) — Bitcoin Energy Accountability / NIS
+# Bibliography (living) - Bitcoin Energy Accountability / NIS
 
 **Status:** living bibliography (in progress).  
 **Conventions:**  
