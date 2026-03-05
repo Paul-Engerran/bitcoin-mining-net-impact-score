@@ -16,7 +16,7 @@
 - De Vries, A. (2018). Bitcoin’s growing energy problem. *Joule, 2*(5), 801–805. https://doi.org/10.1016/j.joule.2018.04.016
 - De Vries, A. (2020). Bitcoin’s energy consumption is underestimated: A market dynamics approach. *Energy Research & Social Science, 70,* 101721. https://doi.org/10.1016/j.erss.2020.101721
 - Lei, N., Masanet, E., & Koomey, J. (2021). Best practices for analyzing the direct energy use of blockchain technology systems. *Energy Policy, 156,* 112422. https://doi.org/10.1016/j.enpol.2021.112422
-- Sai, A. R., & Vranken, H. (2023). Promoting rigor in blockchain energy and environmental footprint research: A systematic literature review. *Blockchain: Research and Applications, 5*(1), 100169. https://doi.org/10.1016/j.bcra.2023.100169
+- Sai, A. R., & Vranken, H. (2024). Promoting rigor in blockchain energy and environmental footprint research: A systematic literature review. *Blockchain: Research and Applications, 5*(1), 100169. https://doi.org/10.1016/j.bcra.2023.100169
 - Stoll, C., Klaaßen, L., & Gallersdörfer, U. (2019). The carbon footprint of Bitcoin. *Joule, 3*(7), 1647–1661. https://doi.org/10.1016/j.joule.2019.05.012
 - Treiblmaier, H. (2023). A comprehensive research framework for Bitcoin’s energy use. *Blockchain: Research and Applications, 4*(3), 100149. https://doi.org/10.1016/j.bcra.2023.100149
 
