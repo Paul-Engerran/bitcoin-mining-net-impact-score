@@ -1,4 +1,4 @@
-# Bitcoin Energy Accountability — Site×Grid Baseline & Net Impact Scoring (NIS)
+# Bitcoin Energy Accountability - Site×Grid Baseline & Net Impact Scoring (NIS)
 
 ![Status](https://img.shields.io/badge/status-working%20draft-yellow)
 ![Last update](https://img.shields.io/badge/last%20update-2026--03--03-informational)
@@ -21,12 +21,12 @@ If evidence is missing, **credits default to zero**.
 
 ## Repository structure
 - `data/processed/`
-  - `v0.1/` — baseline snapshot (site table + operator/zone rollups + data dictionary)
+  - `v0.1/` - baseline snapshot (site table + operator/zone rollups + data dictionary)
 - `data/wip/`
   - intermediate tables (may contain temporary columns / fixes)
-- `docs/` — methodology notes, assumptions, changelog (recommended)
-- `paper/` — draft manuscript (optional; clearly labeled not peer-reviewed)
-- `notebooks/` — exploratory notebooks (clearly labeled if WIP)
+- `docs/` - methodology notes, assumptions, changelog (recommended)
+- `paper/` - draft manuscript (optional; clearly labeled not peer-reviewed)
+- `notebooks/` - exploratory notebooks (clearly labeled if WIP)
 
 ## Reproduce
 1. Install dependencies (Python ≥3.10): `pandas`, `numpy`, `matplotlib`
